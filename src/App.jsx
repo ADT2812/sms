@@ -16,7 +16,7 @@ const App = () => {
       setUser('employee')
       
     } else {
-      alert('Invalid credentials')
+      alert('Invalid credentials.')
     }
   }
 
