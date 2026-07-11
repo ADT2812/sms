@@ -11,6 +11,7 @@ import { setLocalStorage } from '../utils/localStorage'
 
 
 const AuthProvider = ({children}) => {
+    //localStorage.clear()
 
     const [userData, setUserData] = useState(null)
 
