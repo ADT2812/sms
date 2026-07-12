@@ -1,3 +1,16 @@
+npm run dev
+
+login page
+<img width="552" height="473" alt="image" src="https://github.com/user-attachments/assets/e03cb652-7485-419a-bbc8-4848336fe57f" />
+
+admin dashboard
+<img width="1872" height="993" alt="image" src="https://github.com/user-attachments/assets/b229bc94-5b86-4f38-ba92-a20aae32fcc1" />
+
+employee dashboard
+<img width="1868" height="862" alt="image" src="https://github.com/user-attachments/assets/89162b9e-149f-4c15-817d-cba4b5e84aea" />
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
