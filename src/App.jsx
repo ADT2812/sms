@@ -5,6 +5,7 @@ import AdminDashboard from './components/Dashboard/AdminDashboard'
 import { setLocalStorage } from './utils/localStorage'
 import { AuthContext } from './context/AuthProvider'
 
+
 const App = () => {
   const [user, setUser] = useState(null)
   const [loggedInUserData, setLoggedInUserData] = useState(null)
@@ -47,9 +48,9 @@ const App = () => {
     {!user ? (
       <Login handleLogin={handleLogin} />
     ) : user === "admin" ? (
-      <AdminDashboard data={loggedInUserData} />
+      <AdminDashboard data={loggedInUserData} changeUser={setUser}  />
     ) : user === "employee" ? (
-      <EmployeeDashboard data={loggedInUserData} />
+      <EmployeeDashboard data={loggedInUserData} changeUser={setUser} />
     ) : null}
   </>
 )
